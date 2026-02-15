@@ -6,7 +6,7 @@
     Description       = 'Forge.UI — WPF graphical interface for WinForge'
     PowerShellVersion = '7.5'
     FunctionsToExport = @(
-            'Show-ForgeGUI'
+        'Show-ForgeUI'
     )
     CmdletsToExport   = @()
     VariablesToExport = @()

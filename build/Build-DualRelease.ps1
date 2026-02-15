@@ -57,8 +57,20 @@ foreach ($variant in @("Standard", "Extras")) {
     Get-ChildItem -Path $Root -Exclude $exclusions | Copy-Item -Destination $stageDir -Recurse -Force
     
     # Standard Cleanup (Double Check)
-    if ($variant -eq "Standard" -and (Test-Path "$stageDir\src\Forge Module\Extras")) {
-        Remove-Item "$stageDir\src\Forge Module\Extras" -Recurse -Force
+    if ($variant -eq "Standard") {
+        # Remove directory
+        if (Test-Path "$stageDir\src\Forge Module\Extras") {
+            Remove-Item "$stageDir\src\Forge Module\Extras" -Recurse -Force
+        }
+        
+        # Remove entry from WinForge.psd1 to prevent "assembly invalid" error
+        $manifestPath = "$stageDir\WinForge.psd1"
+        if (Test-Path $manifestPath) {
+            $content = Get-Content $manifestPath
+            $content = $content | Where-Object { $_ -notmatch "Forge.Extras.psd1" }
+            Set-Content -Path $manifestPath -Value $content -Encoding UTF8
+            Write-Host "   Removed Extras reference from manifest." -ForegroundColor Gray
+        }
     }
     
     # 3. Create Payload.zip
