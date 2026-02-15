@@ -1,0 +1,882 @@
+╔══════════════════════════════════════════════════════════════╗
+║      WinForge Test Suite                                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+🔍 Checking Dependencies...
+✅ Dependencies requirements met.
+
+🧪 Running Pester Tests...
+Pester v5.7.1
+
+Starting discovery in 12 files.
+Discovery found 342 tests in 383ms.
+Running tests.
+
+Running tests from 'W:\Documents\WinForge\tests\Core.Tests.ps1'
+DEBUG: projectRoot='W:\Documents\WinForge'
+Describing Forge.Core Module
+ Context Core Manifest
+   [+] Has correct exported functions
+ 3ms (2ms|1ms)
+ Context Public Functions Exist
+   [-] Start-ForgeLogging.ps1 exists
+ 3ms (2ms|1ms)
+    at Test-Path "$projectRoot\src\Forge Core\Public\$func.ps1" | Should -Be $true, W:\Documents\WinForge\tests\Core.Tests.ps1:28
+    at <ScriptBlock>, W:\Documents\WinForge\tests\Core.Tests.ps1:28
+    Expected $true, but got $false.
+   [-] Write-ForgeLog.ps1 exists
+ 2ms (2ms|0ms)
+    at Test-Path "$projectRoot\src\Forge Core\Public\$func.ps1" | Should -Be $true, W:\Documents\WinForge\tests\Core.Tests.ps1:28
+    at <ScriptBlock>, W:\Documents\WinForge\tests\Core.Tests.ps1:28
+    Expected $true, but got $false.
+   [-] Get-ForgeLogPath.ps1 exists
+ 8ms (7ms|0ms)
+    at Test-Path "$projectRoot\src\Forge Core\Public\$func.ps1" | Should -Be $true, W:\Documents\WinForge\tests\Core.Tests.ps1:28
+    at <ScriptBlock>, W:\Documents\WinForge\tests\Core.Tests.ps1:28
+    Expected $true, but got $false.
+   [-] Set-ForgeRegistry.ps1 exists
+ 2ms (2ms|0ms)
+    at Test-Path "$projectRoot\src\Forge Core\Public\$func.ps1" | Should -Be $true, W:\Documents\WinForge\tests\Core.Tests.ps1:28
+    at <ScriptBlock>, W:\Documents\WinForge\tests\Core.Tests.ps1:28
+    Expected $true, but got $false.
+   [-] Get-ForgeRegistry.ps1 exists
+ 3ms (3ms|1ms)
+    at Test-Path "$projectRoot\src\Forge Core\Public\$func.ps1" | Should -Be $true, W:\Documents\WinForge\tests\Core.Tests.ps1:28
+    at <ScriptBlock>, W:\Documents\WinForge\tests\Core.Tests.ps1:28
+    Expected $true, but got $false.
+   [-] Test-ForgeRegistry.ps1 exists
+ 2ms (2ms|0ms)
+    at Test-Path "$projectRoot\src\Forge Core\Public\$func.ps1" | Should -Be $true, W:\Documents\WinForge\tests\Core.Tests.ps1:28
+    at <ScriptBlock>, W:\Documents\WinForge\tests\Core.Tests.ps1:28
+    Expected $true, but got $false.
+   [-] Export-ForgeRegistry.ps1 exists
+ 3ms (3ms|1ms)
+    at Test-Path "$projectRoot\src\Forge Core\Public\$func.ps1" | Should -Be $true, W:\Documents\WinForge\tests\Core.Tests.ps1:28
+    at <ScriptBlock>, W:\Documents\WinForge\tests\Core.Tests.ps1:28
+    Expected $true, but got $false.
+   [-] Get-ForgeSystemInfo.ps1 exists
+ 6ms (2ms|4ms)
+    at Test-Path "$projectRoot\src\Forge Core\Public\$func.ps1" | Should -Be $true, W:\Documents\WinForge\tests\Core.Tests.ps1:28
+    at <ScriptBlock>, W:\Documents\WinForge\tests\Core.Tests.ps1:28
+    Expected $true, but got $false.
+   [-] Invoke-ForgeSysprepDefaults.ps1 exists
+ 2ms (2ms|0ms)
+    at Test-Path "$projectRoot\src\Forge Core\Public\$func.ps1" | Should -Be $true, W:\Documents\WinForge\tests\Core.Tests.ps1:28
+    at <ScriptBlock>, W:\Documents\WinForge\tests\Core.Tests.ps1:28
+    Expected $true, but got $false.
+ Context Private Functions Exist
+   [-] Test-ForgeAuditMode.ps1 exists
+ 3ms (2ms|1ms)
+    at Test-Path "$projectRoot\src\Forge Core\Private\$func.ps1" | Should -Be $true, W:\Documents\WinForge\tests\Core.Tests.ps1:41
+    at <ScriptBlock>, W:\Documents\WinForge\tests\Core.Tests.ps1:41
+    Expected $true, but got $false.
+   [-] Mount-ForgeDefaultHive.ps1 exists
+ 2ms (2ms|0ms)
+    at Test-Path "$projectRoot\src\Forge Core\Private\$func.ps1" | Should -Be $true, W:\Documents\WinForge\tests\Core.Tests.ps1:41
+    at <ScriptBlock>, W:\Documents\WinForge\tests\Core.Tests.ps1:41
+    Expected $true, but got $false.
+   [-] Dismount-ForgeDefaultHive.ps1 exists
+ 6ms (2ms|4ms)
+    at Test-Path "$projectRoot\src\Forge Core\Private\$func.ps1" | Should -Be $true, W:\Documents\WinForge\tests\Core.Tests.ps1:41
+    at <ScriptBlock>, W:\Documents\WinForge\tests\Core.Tests.ps1:41
+    Expected $true, but got $false.
+   [-] Set-ForgeRegistryValue.ps1 exists
+ 2ms (2ms|1ms)
+    at Test-Path "$projectRoot\src\Forge Core\Private\$func.ps1" | Should -Be $true, W:\Documents\WinForge\tests\Core.Tests.ps1:41
+    at <ScriptBlock>, W:\Documents\WinForge\tests\Core.Tests.ps1:41
+    Expected $true, but got $false.
+   [-] Test-ForgeElevation.ps1 exists
+ 2ms (2ms|0ms)
+    at Test-Path "$projectRoot\src\Forge Core\Private\$func.ps1" | Should -Be $true, W:\Documents\WinForge\tests\Core.Tests.ps1:41
+    at <ScriptBlock>, W:\Documents\WinForge\tests\Core.Tests.ps1:41
+    Expected $true, but got $false.
+   [-] Format-ForgeOutput.ps1 exists
+ 2ms (2ms|0ms)
+    at Test-Path "$projectRoot\src\Forge Core\Private\$func.ps1" | Should -Be $true, W:\Documents\WinForge\tests\Core.Tests.ps1:41
+    at <ScriptBlock>, W:\Documents\WinForge\tests\Core.Tests.ps1:41
+    Expected $true, but got $false.
+
+Running tests from 'W:\Documents\WinForge\tests\Forge.Tests.ps1'
+Describing WinForge Module Structure
+ Context Master Manifest
+   [+] WinForge.psd1 exists and is valid
+ 66ms (65ms|1ms)
+   [-] Requires PS 7.5+
+ 3ms (3ms|0ms)
+    at $manifest.PowerShellVersion | Should -Be '7.5', W:\Documents\WinForge\tests\Forge.Tests.ps1:21
+    at <ScriptBlock>, W:\Documents\WinForge\tests\Forge.Tests.ps1:21
+    Expected strings to be the same, but they were different.
+    String lengths are both 3.
+    Strings differ at index 2.
+    Expected: '7.5'
+    But was:  '7.0'
+               --^
+ Context Pillar Modules
+   [+] Forge.Core has valid manifest
+ 64ms (63ms|1ms)
+   [+] Forge.Profiles has valid manifest
+ 70ms (69ms|1ms)
+   [+] Forge.Snapshots has valid manifest
+ 67ms (67ms|0ms)
+   [+] Forge.Extras has valid manifest
+ 70ms (70ms|0ms)
+   [+] Forge.CLI has valid manifest
+ 64ms (64ms|0ms)
+   [+] Forge.UI has valid manifest
+ 61ms (60ms|0ms)
+   [+] Forge.Core has psm1 loader
+ 2ms (1ms|0ms)
+   [+] Forge.Profiles has psm1 loader
+ 1ms (1ms|0ms)
+   [+] Forge.Snapshots has psm1 loader
+ 2ms (1ms|0ms)
+   [+] Forge.Extras has psm1 loader
+ 1ms (1ms|0ms)
+   [+] Forge.CLI has psm1 loader
+ 2ms (1ms|1ms)
+   [+] Forge.UI has psm1 loader
+ 2ms (1ms|1ms)
+   [+] Forge.Core has valid manifest
+ 71ms (70ms|0ms)
+   [+] Forge.Profiles has valid manifest
+ 57ms (57ms|0ms)
+   [+] Forge.Snapshots has valid manifest
+ 65ms (64ms|0ms)
+   [+] Forge.Extras has valid manifest
+ 73ms (72ms|1ms)
+   [+] Forge.CLI has valid manifest
+ 74ms (73ms|1ms)
+   [+] Forge.UI has valid manifest
+ 64ms (63ms|1ms)
+   [+] Forge.Core has psm1 loader
+ 1ms (1ms|0ms)
+   [+] Forge.Profiles has psm1 loader
+ 2ms (1ms|1ms)
+   [+] Forge.Snapshots has psm1 loader
+ 2ms (1ms|1ms)
+   [+] Forge.Extras has psm1 loader
+ 7ms (6ms|0ms)
+   [+] Forge.CLI has psm1 loader
+ 2ms (1ms|0ms)
+   [+] Forge.UI has psm1 loader
+ 1ms (1ms|0ms)
+   [+] Forge.Core has valid manifest
+ 72ms (71ms|0ms)
+   [+] Forge.Profiles has valid manifest
+ 64ms (63ms|1ms)
+   [+] Forge.Snapshots has valid manifest
+ 59ms (58ms|1ms)
+   [+] Forge.Extras has valid manifest
+ 65ms (59ms|5ms)
+   [+] Forge.CLI has valid manifest
+ 62ms (62ms|1ms)
+   [+] Forge.UI has valid manifest
+ 60ms (59ms|0ms)
+   [+] Forge.Core has psm1 loader
+ 1ms (1ms|0ms)
+   [+] Forge.Profiles has psm1 loader
+ 2ms (1ms|1ms)
+   [+] Forge.Snapshots has psm1 loader
+ 1ms (1ms|0ms)
+   [+] Forge.Extras has psm1 loader
+ 2ms (1ms|1ms)
+   [+] Forge.CLI has psm1 loader
+ 1ms (1ms|0ms)
+   [+] Forge.UI has psm1 loader
+ 1ms (1ms|0ms)
+   [+] Forge.Core has valid manifest
+ 68ms (68ms|0ms)
+   [+] Forge.Profiles has valid manifest
+ 69ms (68ms|0ms)
+   [+] Forge.Snapshots has valid manifest
+ 68ms (67ms|0ms)
+   [+] Forge.Extras has valid manifest
+ 70ms (69ms|0ms)
+   [+] Forge.CLI has valid manifest
+ 62ms (62ms|0ms)
+   [+] Forge.UI has valid manifest
+ 61ms (61ms|0ms)
+   [+] Forge.Core has psm1 loader
+ 2ms (1ms|1ms)
+   [+] Forge.Profiles has psm1 loader
+ 1ms (1ms|0ms)
+   [+] Forge.Snapshots has psm1 loader
+ 7ms (7ms|0ms)
+   [+] Forge.Extras has psm1 loader
+ 1ms (1ms|0ms)
+   [+] Forge.CLI has psm1 loader
+ 2ms (1ms|1ms)
+   [+] Forge.UI has psm1 loader
+ 1ms (1ms|0ms)
+   [+] Forge.Core has valid manifest
+ 62ms (62ms|0ms)
+   [+] Forge.Profiles has valid manifest
+ 59ms (59ms|0ms)
+   [+] Forge.Snapshots has valid manifest
+ 69ms (69ms|0ms)
+   [+] Forge.Extras has valid manifest
+ 66ms (66ms|1ms)
+   [+] Forge.CLI has valid manifest
+ 63ms (62ms|1ms)
+   [+] Forge.UI has valid manifest
+ 64ms (64ms|0ms)
+   [+] Forge.Core has psm1 loader
+ 1ms (1ms|0ms)
+   [+] Forge.Profiles has psm1 loader
+ 1ms (1ms|0ms)
+   [+] Forge.Snapshots has psm1 loader
+ 2ms (1ms|1ms)
+   [+] Forge.Extras has psm1 loader
+ 2ms (1ms|0ms)
+   [+] Forge.CLI has psm1 loader
+ 1ms (1ms|0ms)
+   [+] Forge.UI has psm1 loader
+ 1ms (1ms|0ms)
+   [+] Forge.Core has valid manifest
+ 70ms (69ms|0ms)
+   [+] Forge.Profiles has valid manifest
+ 68ms (68ms|1ms)
+   [+] Forge.Snapshots has valid manifest
+ 66ms (66ms|0ms)
+   [+] Forge.Extras has valid manifest
+ 71ms (71ms|1ms)
+   [+] Forge.CLI has valid manifest
+ 61ms (60ms|1ms)
+   [+] Forge.UI has valid manifest
+ 64ms (64ms|0ms)
+   [+] Forge.Core has psm1 loader
+ 2ms (1ms|1ms)
+   [+] Forge.Profiles has psm1 loader
+ 7ms (7ms|0ms)
+   [+] Forge.Snapshots has psm1 loader
+ 1ms (1ms|0ms)
+   [+] Forge.Extras has psm1 loader
+ 2ms (1ms|0ms)
+   [+] Forge.CLI has psm1 loader
+ 2ms (1ms|0ms)
+   [+] Forge.UI has psm1 loader
+ 2ms (1ms|0ms)
+ Context Standard Modules
+   [+] Forge.Bloatware has valid manifest
+ 2ms (1ms|1ms)
+   [+] Forge.Privacy has valid manifest
+ 1ms (1ms|0ms)
+   [+] Forge.Performance has valid manifest
+ 2ms (1ms|0ms)
+   [+] Forge.Gaming has valid manifest
+ 2ms (1ms|1ms)
+   [+] Forge.Network has valid manifest
+ 2ms (1ms|0ms)
+   [+] Forge.Security has valid manifest
+ 2ms (1ms|1ms)
+   [+] Forge.Repair has valid manifest
+ 1ms (1ms|0ms)
+   [+] Forge.Maintenance has valid manifest
+ 2ms (1ms|1ms)
+   [+] Forge.Software has valid manifest
+ 1ms (1ms|0ms)
+   [+] Forge.Drivers has valid manifest
+ 2ms (1ms|0ms)
+   [+] Forge.Tweaks has valid manifest
+ 1ms (1ms|0ms)
+   [+] Forge.Features has valid manifest
+ 7ms (7ms|0ms)
+   [+] Forge.Windows11 has valid manifest
+ 1ms (1ms|0ms)
+   [+] Forge.Integrations has valid manifest
+ 1ms (1ms|0ms)
+   [+] Forge.Bloatware has Public functions
+ 5ms (4ms|1ms)
+   [+] Forge.Privacy has Public functions
+ 6ms (6ms|1ms)
+   [+] Forge.Performance has Public functions
+ 5ms (5ms|0ms)
+   [+] Forge.Gaming has Public functions
+ 5ms (4ms|0ms)
+   [+] Forge.Network has Public functions
+ 11ms (10ms|1ms)
+   [+] Forge.Security has Public functions
+ 5ms (4ms|0ms)
+   [+] Forge.Repair has Public functions
+ 7ms (6ms|1ms)
+   [+] Forge.Maintenance has Public functions
+ 5ms (5ms|0ms)
+   [+] Forge.Software has Public functions
+ 5ms (5ms|0ms)
+   [+] Forge.Drivers has Public functions
+ 5ms (5ms|0ms)
+   [+] Forge.Tweaks has Public functions
+ 6ms (5ms|0ms)
+   [+] Forge.Features has Public functions
+ 10ms (4ms|6ms)
+   [+] Forge.Windows11 has Public functions
+ 5ms (4ms|1ms)
+   [+] Forge.Integrations has Public functions
+ 5ms (4ms|1ms)
+
+Running tests from 'W:\Documents\WinForge\tests\Integration.Tests.ps1'
+Describing Integration: Safety Systems
+  [-] Should create a system snapshot
+ 21ms (20ms|1ms)
+   at <ScriptBlock>, W:\Documents\WinForge\tests\Integration.Tests.ps1:21
+   CommandNotFoundException: The term 'New-ForgeSnapshot' is not recognized as a name of a cmdlet, function, script file, or executable program.
+   Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+  [-] Should restore registry state from snapshot (AdvertisingInfo)
+ 23ms (23ms|0ms)
+   at <ScriptBlock>, W:\Documents\WinForge\tests\Integration.Tests.ps1:36
+   CommandNotFoundException: The term 'New-ForgeSnapshot' is not recognized as a name of a cmdlet, function, script file, or executable program.
+   Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+
+Running tests from 'W:\Documents\WinForge\tests\Modules.Tests.ps1'
+Describing Modules.Windows11.VersionDetection
+  [+] Exports Get-ForgeWindowsVersion
+ 2ms (1ms|1ms)
+  [+] Exports Test-ForgeWindows11
+ 1ms (1ms|0ms)
+
+Describing Modules.Bloatware
+  [+] Includes Critical 25H2 Bloatware Apps
+ 3ms (1ms|1ms)
+
+Describing Modules.Privacy
+  [+] Exports Centralized Privacy Function
+ 2ms (1ms|1ms)
+
+Describing Modules.Performance
+  [+] Exports Measure-ForgeSystem
+ 2ms (1ms|1ms)
+
+Running tests from 'W:\Documents\WinForge\tests\Overall.Tests.ps1'
+Describing WinForge Compliance
+ Context 1. Manifest Integrity
+   [+] WinForge.psd1 should show valid module manifest
+ 70ms (69ms|1ms)
+   [+] Should not have duplicate NestedModules
+ 1ms (1ms|0ms)
+ Context 2. Core Hardening
+   [+] Set-RegistryKey should reject invalid hives
+ 25ms (24ms|1ms)
+   [-] Set-RegistryKey should accept valid HKLM
+ 32ms (32ms|0ms)
+    at { Set-RegistryKey -Path "HKLM:\Software\Test" -Name "TestVal" -Value 1 -Type DWord } | Should -Not -Throw, W:\Documents\WinForge\tests\Overall.Tests.ps1:38
+    at <ScriptBlock>, W:\Documents\WinForge\tests\Overall.Tests.ps1:38
+    Expected no exception to be thrown, but an exception "The term 'Set-RegistryKey' is not recognized as a name of a cmdlet, function, script file, or executable program.
+    Check the spelling of the name, or if a path was included, verify that the path is correct and try again." was thrown from W:\Documents\WinForge\tests\Overall.Tests.ps1:38 char:15
+        +             { Set-RegistryKey -Path "HKLM:\Software\Test" -Name "Test …
+        +               ~~~~~~~~~~~~~~~.
+ Context 3. Syntax Validation
+   [+] Export-ForgeRegistry.ps1 should pass syntax check
+ 3ms (2ms|1ms)
+   [+] Get-ForgeLogPath.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Get-ForgeRegistry.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Get-ForgeSystemInfo.ps1 should pass syntax check
+ 2ms (2ms|0ms)
+   [+] Invoke-ForgeSysprepDefaults.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Set-ForgeRegistry.ps1 should pass syntax check
+ 7ms (7ms|0ms)
+   [+] Start-ForgeLogging.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Test-ForgeRegistry.ps1 should pass syntax check
+ 3ms (2ms|1ms)
+   [+] Write-ForgeLog.ps1 should pass syntax check
+ 4ms (4ms|0ms)
+   [+] Dismount-ForgeDefaultHive.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Format-ForgeOutput.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Mount-ForgeDefaultHive.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Set-ForgeRegistryValue.ps1 should pass syntax check
+ 6ms (1ms|5ms)
+   [+] Test-ForgeAuditMode.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Test-ForgeElevation.ps1 should pass syntax check
+ 2ms (1ms|1ms)
+   [+] Disable-ForgeAI.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Get-ForgeBloatwareList.ps1 should pass syntax check
+ 2ms (1ms|1ms)
+   [+] Remove-ForgeBloatware.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Remove-ForgeEdge.ps1 should pass syntax check
+ 2ms (1ms|1ms)
+   [+] Remove-ForgeOneDrive.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Remove-ForgeXbox.ps1 should pass syntax check
+ 2ms (1ms|1ms)
+   [+] Add-ForgeHostsBlock.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Disable-ForgeTelemetryTasks.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Enable-ForgeTelemetryTasks.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Get-ForgeHostsStatus.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Get-ForgeTelemetryDomains.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Get-ForgeTelemetryTaskStatus.ps1 should pass syntax check
+ 2ms (2ms|0ms)
+   [+] Remove-ForgeHostsBlock.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Set-ForgePrivacy.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Compare-ForgeBenchmarks.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Disable-ForgeUltimatePower.ps1 should pass syntax check
+ 2ms (1ms|1ms)
+   [+] Enable-ForgeUltimatePower.ps1 should pass syntax check
+ 2ms (2ms|0ms)
+   [+] Get-ForgeServicePresets.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Measure-ForgeSystem.ps1 should pass syntax check
+ 2ms (2ms|0ms)
+   [+] Set-ForgePerformance.ps1 should pass syntax check
+ 2ms (1ms|1ms)
+   [+] Set-ForgeServices.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Get-ForgeWindowsVersion.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Test-ForgeWindows11.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Install-ForgeEssentials.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Install-ForgeSoftware.ps1 should pass syntax check
+ 2ms (1ms|1ms)
+   [+] Update-ForgeSoftware.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Get-ForgeDriverStatus.ps1 should pass syntax check
+ 6ms (1ms|5ms)
+   [+] Get-ForgeGPUInfo.ps1 should pass syntax check
+ 2ms (1ms|1ms)
+   [+] Update-ForgeDrivers.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Get-ForgeDNSProviders.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Get-ForgeNetworkStatus.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Set-ForgeDNS.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Set-ForgeIPv6.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Invoke-ForgeMaintenance.ps1 should pass syntax check
+ 7ms (6ms|1ms)
+   [+] Register-ForgeMaintenance.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Disable-ForgeAIRecall.ps1 should pass syntax check
+ 2ms (2ms|0ms)
+   [+] Disable-ForgeClickToDo.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Disable-ForgeCopilot.ps1 should pass syntax check
+ 2ms (2ms|1ms)
+   [+] Disable-ForgeDesktopSpotlight.ps1 should pass syntax check
+ 2ms (2ms|1ms)
+   [+] Disable-ForgeEdgeAI.ps1 should pass syntax check
+ 2ms (1ms|1ms)
+   [+] Disable-ForgeNotepadAI.ps1 should pass syntax check
+ 9ms (8ms|1ms)
+   [+] Disable-ForgePaintAI.ps1 should pass syntax check
+ 2ms (1ms|1ms)
+   [+] Disable-ForgeSettings365Ads.ps1 should pass syntax check
+ 2ms (1ms|1ms)
+   [+] Set-ForgeContextMenu.ps1 should pass syntax check
+ 2ms (2ms|0ms)
+   [+] Set-ForgeExplorer.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Set-ForgeStartMenu.ps1 should pass syntax check
+ 2ms (2ms|0ms)
+   [+] Set-ForgeTaskbar.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Repair-ForgeSystem.ps1 should pass syntax check
+ 8ms (7ms|0ms)
+   [+] Reset-ForgeNetwork.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Reset-ForgeUpdate.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Remove-ForgeCapabilities.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Set-ForgeOptionalFeatures.ps1 should pass syntax check
+ 2ms (2ms|0ms)
+   [+] Disable-ForgeSMBv1.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Enable-ForgePUAProtection.ps1 should pass syntax check
+ 2ms (2ms|0ms)
+   [+] Write-ForgeLog.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Enable-ForgeWindowsActivation.ps1 should pass syntax check
+ 3ms (2ms|0ms)
+   [+] Get-ForgeActivationStatus.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Invoke-ForgeDefenderRemover.ps1 should pass syntax check
+ 2ms (2ms|0ms)
+   [+] Repair-ForgeActivation.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Set-ForgeWindowsEdition.ps1 should pass syntax check
+ 2ms (2ms|0ms)
+   [+] Invoke-ForgeAdwCleaner.ps1 should pass syntax check
+ 7ms (6ms|0ms)
+   [+] Invoke-ForgeShutUp10.ps1 should pass syntax check
+ 2ms (1ms|1ms)
+   [+] Update-ForgeSDIO.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Disable-ForgeGameDVR.ps1 should pass syntax check
+ 2ms (1ms|1ms)
+   [+] Set-ForgeGaming.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Set-ForgeGPUPriority.ps1 should pass syntax check
+ 2ms (1ms|1ms)
+   [+] Get-ForgeRecommendedProfile.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Import-ForgeProfile.ps1 should pass syntax check
+ 7ms (7ms|0ms)
+   [+] Test-ForgeProfile.ps1 should pass syntax check
+ 2ms (2ms|1ms)
+   [+] ProfileSchema.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] build.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] powershell-yaml.Tests.ps1 should pass syntax check
+ 5ms (4ms|0ms)
+   [+] Get-ForgeSnapshot.ps1 should pass syntax check
+ 6ms (1ms|5ms)
+   [+] New-ForgeSnapshot.ps1 should pass syntax check
+ 2ms (2ms|0ms)
+   [+] Remove-ForgeSnapshot.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Restore-ForgeSnapshot.ps1 should pass syntax check
+ 2ms (2ms|0ms)
+   [+] Show-ForgeHeader.ps1 should pass syntax check
+ 2ms (1ms|0ms)
+   [+] Show-ForgeMenu.ps1 should pass syntax check
+ 2ms (2ms|0ms)
+   [+] Write-ForgeHost.ps1 should pass syntax check
+ 7ms (6ms|0ms)
+   [+] Get-ForgeTheme.ps1 should pass syntax check
+ 2ms (2ms|0ms)
+   [+] Show-ForgeUI.ps1 should pass syntax check
+ 3ms (3ms|1ms)
+   [+] Get-UIElement.ps1 should pass syntax check
+ 5ms (5ms|1ms)
+   [+] Register-ForgeUIHandlers.ps1 should pass syntax check
+ 7ms (6ms|0ms)
+ Context 4. Bloatware Module Optimization
+   [+] Regex compilation should be valid
+ 6ms (1ms|5ms)
+
+Running tests from 'W:\Documents\WinForge\tests\Snapshots.Tests.ps1'
+Describing Forge.Snapshots Module
+ Context Snapshots Functions Exist
+   [-] New-ForgeSnapshot.ps1 exists
+ 4ms (2ms|1ms)
+    at Test-Path "$projectRoot\src\Forge Snapshots\Public\$func.ps1" | Should -Be $true, W:\Documents\WinForge\tests\Snapshots.Tests.ps1:11
+    at <ScriptBlock>, W:\Documents\WinForge\tests\Snapshots.Tests.ps1:11
+    Expected $true, but got $false.
+   [-] Restore-ForgeSnapshot.ps1 exists
+ 3ms (2ms|0ms)
+    at Test-Path "$projectRoot\src\Forge Snapshots\Public\$func.ps1" | Should -Be $true, W:\Documents\WinForge\tests\Snapshots.Tests.ps1:11
+    at <ScriptBlock>, W:\Documents\WinForge\tests\Snapshots.Tests.ps1:11
+    Expected $true, but got $false.
+   [-] Get-ForgeSnapshot.ps1 exists
+ 2ms (2ms|0ms)
+    at Test-Path "$projectRoot\src\Forge Snapshots\Public\$func.ps1" | Should -Be $true, W:\Documents\WinForge\tests\Snapshots.Tests.ps1:11
+    at <ScriptBlock>, W:\Documents\WinForge\tests\Snapshots.Tests.ps1:11
+    Expected $true, but got $false.
+   [-] Remove-ForgeSnapshot.ps1 exists
+ 2ms (2ms|0ms)
+    at Test-Path "$projectRoot\src\Forge Snapshots\Public\$func.ps1" | Should -Be $true, W:\Documents\WinForge\tests\Snapshots.Tests.ps1:11
+    at <ScriptBlock>, W:\Documents\WinForge\tests\Snapshots.Tests.ps1:11
+    Expected $true, but got $false.
+
+Running tests from 'W:\Documents\WinForge\tests\Software.Tests.ps1'
+Describing Modules.Software (PS 7.5 Features)
+  [-] Test-PackageManager exists
+ 28ms (27ms|1ms)
+   at $cmd | Should -Not -BeNullOrEmpty, W:\Documents\WinForge\tests\Software.Tests.ps1:11
+   at <ScriptBlock>, W:\Documents\WinForge\tests\Software.Tests.ps1:11
+   Expected a value, but got $null or empty.
+  [+] Install-PackageManager uses retry parameters
+ 5ms (4ms|0ms)
+
+Running tests from 'W:\Documents\WinForge\tests\Syntax.Tests.ps1'
+Describing WinForge Syntax Validation
+  [+] Export-ForgeRegistry.ps1 has valid PowerShell syntax
+ 2ms (1ms|1ms)
+  [+] Get-ForgeLogPath.ps1 has valid PowerShell syntax
+ 1ms (1ms|0ms)
+  [+] Get-ForgeRegistry.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Get-ForgeSystemInfo.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Invoke-ForgeSysprepDefaults.ps1 has valid PowerShell syntax
+ 2ms (1ms|1ms)
+  [+] Set-ForgeRegistry.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Start-ForgeLogging.ps1 has valid PowerShell syntax
+ 2ms (1ms|1ms)
+  [+] Test-ForgeRegistry.ps1 has valid PowerShell syntax
+ 1ms (1ms|0ms)
+  [+] Write-ForgeLog.ps1 has valid PowerShell syntax
+ 2ms (1ms|1ms)
+  [+] Dismount-ForgeDefaultHive.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Format-ForgeOutput.ps1 has valid PowerShell syntax
+ 2ms (1ms|1ms)
+  [+] Mount-ForgeDefaultHive.ps1 has valid PowerShell syntax
+ 1ms (1ms|0ms)
+  [+] Set-ForgeRegistryValue.ps1 has valid PowerShell syntax
+ 5ms (1ms|4ms)
+  [+] Test-ForgeAuditMode.ps1 has valid PowerShell syntax
+ 2ms (1ms|1ms)
+  [+] Test-ForgeElevation.ps1 has valid PowerShell syntax
+ 1ms (1ms|0ms)
+  [+] Disable-ForgeAI.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Get-ForgeBloatwareList.ps1 has valid PowerShell syntax
+ 1ms (1ms|0ms)
+  [+] Remove-ForgeBloatware.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Remove-ForgeEdge.ps1 has valid PowerShell syntax
+ 1ms (1ms|0ms)
+  [+] Remove-ForgeOneDrive.ps1 has valid PowerShell syntax
+ 1ms (1ms|0ms)
+  [+] Remove-ForgeXbox.ps1 has valid PowerShell syntax
+ 6ms (5ms|0ms)
+  [+] Add-ForgeHostsBlock.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Disable-ForgeTelemetryTasks.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Enable-ForgeTelemetryTasks.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Get-ForgeHostsStatus.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Get-ForgeTelemetryDomains.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Get-ForgeTelemetryTaskStatus.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Remove-ForgeHostsBlock.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Set-ForgePrivacy.ps1 has valid PowerShell syntax
+ 1ms (1ms|0ms)
+  [+] Compare-ForgeBenchmarks.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Disable-ForgeUltimatePower.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Enable-ForgeUltimatePower.ps1 has valid PowerShell syntax
+ 2ms (1ms|1ms)
+  [+] Get-ForgeServicePresets.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Measure-ForgeSystem.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Set-ForgePerformance.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Set-ForgeServices.ps1 has valid PowerShell syntax
+ 1ms (1ms|0ms)
+  [+] Get-ForgeWindowsVersion.ps1 has valid PowerShell syntax
+ 2ms (1ms|1ms)
+  [+] Test-ForgeWindows11.ps1 has valid PowerShell syntax
+ 6ms (1ms|5ms)
+  [+] Install-ForgeEssentials.ps1 has valid PowerShell syntax
+ 2ms (1ms|1ms)
+  [+] Install-ForgeSoftware.ps1 has valid PowerShell syntax
+ 1ms (1ms|0ms)
+  [+] Update-ForgeSoftware.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Get-ForgeDriverStatus.ps1 has valid PowerShell syntax
+ 1ms (1ms|0ms)
+  [+] Get-ForgeGPUInfo.ps1 has valid PowerShell syntax
+ 1ms (1ms|0ms)
+  [+] Update-ForgeDrivers.ps1 has valid PowerShell syntax
+ 2ms (1ms|1ms)
+  [+] Get-ForgeDNSProviders.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Get-ForgeNetworkStatus.ps1 has valid PowerShell syntax
+ 6ms (5ms|1ms)
+  [+] Set-ForgeDNS.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Set-ForgeIPv6.ps1 has valid PowerShell syntax
+ 2ms (1ms|1ms)
+  [+] Invoke-ForgeMaintenance.ps1 has valid PowerShell syntax
+ 1ms (1ms|0ms)
+  [+] Register-ForgeMaintenance.ps1 has valid PowerShell syntax
+ 2ms (2ms|1ms)
+  [+] Disable-ForgeAIRecall.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Disable-ForgeClickToDo.ps1 has valid PowerShell syntax
+ 1ms (1ms|0ms)
+  [+] Disable-ForgeCopilot.ps1 has valid PowerShell syntax
+ 1ms (1ms|0ms)
+  [+] Disable-ForgeDesktopSpotlight.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Disable-ForgeEdgeAI.ps1 has valid PowerShell syntax
+ 2ms (1ms|1ms)
+  [+] Disable-ForgeNotepadAI.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Disable-ForgePaintAI.ps1 has valid PowerShell syntax
+ 1ms (1ms|0ms)
+  [+] Disable-ForgeSettings365Ads.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Set-ForgeContextMenu.ps1 has valid PowerShell syntax
+ 2ms (1ms|1ms)
+  [+] Set-ForgeExplorer.ps1 has valid PowerShell syntax
+ 2ms (1ms|1ms)
+  [+] Set-ForgeStartMenu.ps1 has valid PowerShell syntax
+ 1ms (1ms|0ms)
+  [+] Set-ForgeTaskbar.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Repair-ForgeSystem.ps1 has valid PowerShell syntax
+ 6ms (6ms|0ms)
+  [+] Reset-ForgeNetwork.ps1 has valid PowerShell syntax
+ 1ms (1ms|0ms)
+  [+] Reset-ForgeUpdate.ps1 has valid PowerShell syntax
+ 2ms (1ms|1ms)
+  [+] Remove-ForgeCapabilities.ps1 has valid PowerShell syntax
+ 1ms (1ms|0ms)
+  [+] Set-ForgeOptionalFeatures.ps1 has valid PowerShell syntax
+ 2ms (1ms|1ms)
+  [+] Disable-ForgeSMBv1.ps1 has valid PowerShell syntax
+ 1ms (1ms|0ms)
+  [+] Enable-ForgePUAProtection.ps1 has valid PowerShell syntax
+ 2ms (1ms|1ms)
+  [+] Write-ForgeLog.ps1 has valid PowerShell syntax
+ 2ms (1ms|1ms)
+  [+] Enable-ForgeWindowsActivation.ps1 has valid PowerShell syntax
+ 7ms (7ms|1ms)
+  [+] Get-ForgeActivationStatus.ps1 has valid PowerShell syntax
+ 2ms (2ms|0ms)
+  [+] Invoke-ForgeDefenderRemover.ps1 has valid PowerShell syntax
+ 2ms (1ms|1ms)
+  [+] Repair-ForgeActivation.ps1 has valid PowerShell syntax
+ 2ms (1ms|1ms)
+  [+] Set-ForgeWindowsEdition.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Invoke-ForgeAdwCleaner.ps1 has valid PowerShell syntax
+ 2ms (1ms|1ms)
+  [+] Invoke-ForgeShutUp10.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Update-ForgeSDIO.ps1 has valid PowerShell syntax
+ 2ms (1ms|1ms)
+  [+] Disable-ForgeGameDVR.ps1 has valid PowerShell syntax
+ 16ms (16ms|1ms)
+  [+] Set-ForgeGaming.ps1 has valid PowerShell syntax
+ 2ms (1ms|1ms)
+  [+] Set-ForgeGPUPriority.ps1 has valid PowerShell syntax
+ 2ms (1ms|1ms)
+  [+] Get-ForgeRecommendedProfile.ps1 has valid PowerShell syntax
+ 2ms (2ms|0ms)
+  [+] Import-ForgeProfile.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Test-ForgeProfile.ps1 has valid PowerShell syntax
+ 2ms (1ms|1ms)
+  [+] ProfileSchema.ps1 has valid PowerShell syntax
+ 2ms (1ms|1ms)
+  [+] build.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] powershell-yaml.Tests.ps1 has valid PowerShell syntax
+ 9ms (8ms|0ms)
+  [+] Get-ForgeSnapshot.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] New-ForgeSnapshot.ps1 has valid PowerShell syntax
+ 2ms (2ms|0ms)
+  [+] Remove-ForgeSnapshot.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Restore-ForgeSnapshot.ps1 has valid PowerShell syntax
+ 2ms (2ms|1ms)
+  [+] Show-ForgeHeader.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Show-ForgeMenu.ps1 has valid PowerShell syntax
+ 9ms (1ms|8ms)
+  [+] Write-ForgeHost.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Get-ForgeTheme.ps1 has valid PowerShell syntax
+ 2ms (1ms|0ms)
+  [+] Show-ForgeUI.ps1 has valid PowerShell syntax
+ 3ms (2ms|0ms)
+  [+] Get-UIElement.ps1 has valid PowerShell syntax
+ 8ms (8ms|1ms)
+  [+] Register-ForgeUIHandlers.ps1 has valid PowerShell syntax
+ 6ms (5ms|1ms)
+
+Running tests from 'W:\Documents\WinForge\tests\Unit\Config.Tests.ps1'
+Describing Config Module
+ Context Get-ForgeRecommendedProfile
+   [-] Should recommend Performance for < 8GB RAM
+ 21ms (20ms|1ms)
+    at $result | Should -Be "Performance", W:\Documents\WinForge\tests\Unit\Config.Tests.ps1:18
+    at <ScriptBlock>, W:\Documents\WinForge\tests\Unit\Config.Tests.ps1:18
+    Expected strings to be the same, but they were different.
+    Expected length: 11
+    Actual length:   10
+    Strings differ at index 0.
+    Expected: 'Performance'
+    But was:  'aggressive'
+               ^
+   [+] Should recommend Gaming for >= 16GB RAM + High End GPU
+ 8ms (8ms|0ms)
+   [-] Should recommend Moderate for >= 8GB RAM but no dedicated GPU
+ 17ms (17ms|0ms)
+    at $result | Should -Be "Moderate", W:\Documents\WinForge\tests\Unit\Config.Tests.ps1:42
+    at <ScriptBlock>, W:\Documents\WinForge\tests\Unit\Config.Tests.ps1:42
+    Expected strings to be the same, but they were different.
+    String lengths are both 8.
+    Strings differ at index 0.
+    Expected: 'Moderate'
+    But was:  'balanced'
+               ^
+
+Running tests from 'W:\Documents\WinForge\tests\Unit\SystemIntegration.Tests.ps1'
+Describing System Integration Tests
+ Context Repair Module
+[05:44:53] [Success] 
+Network stack reset. Restart required.
+   [+] Reset-ForgeNetwork should invoke netsh commands
+ 16ms (15ms|1ms)
+ Context Features Module
+[05:44:53] [Success] 
+Disabled feature: FaxServicesClientPackage
+   [+] Set-ForgeOptionalFeatures should disable features
+ 10ms (9ms|1ms)
+ Context Security Module
+[05:44:53] [Success] 
+PUA Protection enabled
+   [+] Enable-ForgePUAProtection should call Set-MpPreference
+ 10ms (9ms|1ms)
+
+Running tests from 'W:\Documents\WinForge\tests\Unit\SystemState.Tests.ps1'
+Describing SystemState Module
+ Context Get-ForgeSystemInfo
+   [+] Should return a state object with all expected properties
+ 49ms (47ms|1ms)
+
+Running tests from 'W:\Documents\WinForge\tests\Unit\Tweaks.Tests.ps1'
+Describing Tweaks Module
+ Context Set-ForgeTaskbar
+[05:44:53] [Success] 
+Taskbar configured (Alignment: Left)
+   [+] Should set alignment to Left (0)
+ 17ms (16ms|1ms)
+[05:44:53] [Success] 
+Taskbar configured (Alignment: Center)
+   [+] Should set alignment to Center (1)
+ 6ms (5ms|0ms)
+ Context Set-ForgeStartMenu
+[05:44:53] [Success] 
+Start Menu Recommended section hidden
+   [+] Should disable recommended section
+ 6ms (5ms|1ms)
+Tests completed in 5.06s
+Tests Passed: 316, 
+Failed: 26, 
+Skipped: 0, 
+Inconclusive: 0, 
+
+NotRun: 0
+
+================================
+TEST SUMMARY
+Passed: 316
+Failed: 26
+Total:  342
+
+❌ Tests Failed.

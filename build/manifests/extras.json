@@ -1,0 +1,15 @@
+{
+    "edition": "extras",
+    "version": "1.0.0",
+    "modules": [
+        "Forge.Core", "Forge.Profiles", "Forge.Snapshots",
+        "Forge.Bloatware", "Forge.Privacy", "Forge.Performance",
+        "Forge.Gaming", "Forge.Network", "Forge.Security",
+        "Forge.Repair", "Forge.Maintenance", "Forge.Software",
+        "Forge.Drivers", "Forge.Tweaks", "Forge.Features",
+        "Forge.Windows11", "Forge.Integrations",
+        "Forge.Extras",
+        "Forge.CLI", "Forge.GUI"
+    ],
+    "excludes": []
+}

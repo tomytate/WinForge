@@ -1,0 +1,34 @@
+{
+    "Privacy": [
+        { "Name": "DiagTrack", "StartType": "Disabled" },
+        { "Name": "dmwappushservice", "StartType": "Disabled" },
+        { "Name": "WerSvc", "StartType": "Manual" },
+        { "Name": "WMPNetworkSvc", "StartType": "Disabled" }
+    ],
+    "Performance": [
+        { "Name": "SysMain", "StartType": "Disabled" },
+        { "Name": "WSearch", "StartType": "Manual" },
+        { "Name": "wuauserv", "StartType": "Manual" },
+        { "Name": "DiagTrack", "StartType": "Disabled" },
+        { "Name": "MapsBroker", "StartType": "Disabled" },
+        { "Name": "PcaSvc", "StartType": "Manual" }
+    ],
+    "Security": [
+        { "Name": "RemoteRegistry", "StartType": "Disabled" },
+        { "Name": "lfsvc", "StartType": "Disabled" }
+    ],
+    "Minimal": [
+        { "Name": "SysMain", "StartType": "Disabled" },
+        { "Name": "WSearch", "StartType": "Disabled" },
+        { "Name": "DiagTrack", "StartType": "Disabled" },
+        { "Name": "dmwappushservice", "StartType": "Disabled" },
+        { "Name": "MapsBroker", "StartType": "Disabled" },
+        { "Name": "WMPNetworkSvc", "StartType": "Disabled" },
+        { "Name": "RemoteRegistry", "StartType": "Disabled" },
+        { "Name": "lfsvc", "StartType": "Disabled" },
+        { "Name": "WerSvc", "StartType": "Disabled" },
+        { "Name": "PcaSvc", "StartType": "Disabled" },
+        { "Name": "RetailDemo", "StartType": "Disabled" },
+        { "Name": "wisvc", "StartType": "Disabled" }
+    ]
+}

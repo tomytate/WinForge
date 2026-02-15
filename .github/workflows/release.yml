@@ -1,0 +1,44 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build & Release
+    runs-on: windows-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install PowerShell 7.5.4 (Winget)
+        shell: cmd
+        run: |
+           winget install --id Microsoft.PowerShell --version 7.5.4 --accept-package-agreements --accept-source-agreements
+
+      - name: Build Dual Release
+        shell: pwsh
+        run: |
+          $tag = "${{ github.ref_name }}"
+          $version = $tag.TrimStart('v')
+          ./build/Build-DualRelease.ps1 -Version $version -OutputDir dist
+
+      - name: Publish Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: |
+            dist/WinForge.exe
+            dist/WinForge-Extras.exe
+            dist/SHA256SUMS.txt
+          body_path: dist/RELEASE_NOTES.md
+          draft: false
+          prerelease: false
+

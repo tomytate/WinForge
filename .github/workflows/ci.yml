@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    name: Build & Test
+    runs-on: windows-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Install PowerShell 7.5.4 (Winget)
+      shell: cmd
+      run: |
+        winget install --id Microsoft.PowerShell --version 7.5.4 --accept-package-agreements --accept-source-agreements
+
+    - name: Run Test Suite (Lint + Unit + Integration)
+      shell: pwsh
+      run: |
+        ./build/Test-Project.ps1
+
+    - name: Verify Build (Dry Run)
+      shell: pwsh
+      run: |
+        ./build/Build-DualRelease.ps1 -Version "0.0.0-CI" -OutputDir dist
+        if (-not (Test-Path "dist/WinForge.exe")) {
+            throw "Build verification failed: WinForge.exe missing."
+        }
+        if (-not (Test-Path "dist/WinForge-Extras.exe")) {
+            throw "Build verification failed: WinForge-Extras.exe missing."
+        }
+

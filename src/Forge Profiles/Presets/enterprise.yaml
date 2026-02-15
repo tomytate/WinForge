@@ -1,0 +1,62 @@
+# WinForge Enterprise Profile
+# Designed for corporate/managed environments
+# Conservative: preserves IT management tools, focuses on telemetry reduction
+
+metadata:
+  name: Enterprise
+  description: Optimized for corporate/managed Windows deployments
+  version: 1.0.0
+  author: WinForge
+
+bloatware:
+  mode: conservative
+  exclude:
+    - Microsoft.MicrosoftOfficeHub
+    - Microsoft.WindowsCommunicationsApps
+    - Microsoft.People
+
+privacy:
+  disable_telemetry: true
+  disable_advertising_id: true
+  disable_activity_history: true
+  disable_location: false
+  hosts_blocking: false
+  telemetry_tasks: safe
+
+performance:
+  disable_background_apps: false
+  optimize_visual_effects: false
+  optimize_ram: true
+  services_preset: Security
+  power_plan: balanced
+
+gaming:
+  enabled: false
+
+network:
+  dns_provider: null
+  disable_ipv6: false
+
+security:
+  disable_smbv1: true
+  enable_pua_protection: true
+
+tweaks:
+  ai:
+    disable_recall: true
+    disable_copilot: true
+    disable_click_to_do: true
+  ui:
+    taskbar_alignment: center
+    context_menu: modern
+    hide_search: false
+    hide_widgets: true
+
+features:
+  disable_optional: false
+  remove_capabilities: false
+
+maintenance:
+  schedule: weekly
+  auto_update_apps: false
+

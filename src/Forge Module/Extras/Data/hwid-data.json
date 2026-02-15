@@ -1,0 +1,114 @@
+[
+    {
+        "Edition": "Enterprise",
+        "Key": "XGVPP-NMH47-7TTHJ-W3FW7-8HV2C",
+        "SkuId": "4",
+        "KeyPart": "X19-99683",
+        "ActId": "8b351c9c-f398-4515-9900-09df49427262"
+    },
+    {
+        "Edition": "EnterpriseN",
+        "Key": "3V6Q6-NQXCX-V8YXR-9QCYV-QPFCT",
+        "SkuId": "27",
+        "KeyPart": "X19-98746",
+        "ActId": "c83cef07-6b72-4bbc-a28f-a00386872839"
+    },
+    {
+        "Edition": "Professional",
+        "Key": "VK7JG-NPHTM-C97JM-9MPGT-3V66T",
+        "SkuId": "48",
+        "KeyPart": "X19-98841",
+        "ActId": "4de7cb65-cdf1-4de9-8ae8-e3cce27b9f2c"
+    },
+    {
+        "Edition": "ProfessionalN",
+        "Key": "2B87N-8KFHP-DKV6R-Y2C8J-PKCKT",
+        "SkuId": "49",
+        "KeyPart": "X19-98859",
+        "ActId": "9fbaf5d6-4d83-4422-870d-fdda6e5858aa"
+    },
+    {
+        "Edition": "Education",
+        "Key": "YNMGQ-8RYV3-4PGQ3-C8XTP-7CFBY",
+        "SkuId": "121",
+        "KeyPart": "X19-98886",
+        "ActId": "e558417a-5123-4f6f-91e7-385c1c7ca9d4"
+    },
+    {
+        "Edition": "EducationN",
+        "Key": "84NGF-MHBT6-FXBX8-QWJK7-DRR8H",
+        "SkuId": "122",
+        "KeyPart": "X19-98892",
+        "ActId": "c5198a66-e435-4432-89cf-ec777c9d0352"
+    },
+    {
+        "Edition": "EnterpriseS-2021",
+        "Key": "QPM6N-7J2WJ-P88HH-P3YRH-YY74H",
+        "SkuId": "125",
+        "KeyPart": "X21-99682",
+        "ActId": "ed655016-a9e8-4434-95d9-4345352c2552"
+    },
+    {
+        "Edition": "IoTEnterprise",
+        "Key": "XQQYW-NFFMW-XJPBH-K8732-CKFFD",
+        "SkuId": "188",
+        "KeyPart": "X21-99378",
+        "ActId": "8ab9bdd1-1f67-4997-82d9-8878520837d9"
+    },
+    {
+        "Edition": "Home",
+        "Key": "YTMG3-N6DKC-DKB77-7M9GH-8HVX7",
+        "SkuId": "101",
+        "KeyPart": "X19-98868",
+        "ActId": "2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8"
+    },
+    {
+        "Edition": "HomeN",
+        "Key": "4CPRK-NM3K3-X6XXQ-RXX86-WXCHW",
+        "SkuId": "98",
+        "KeyPart": "X19-98877",
+        "ActId": "f742e4ff-909d-4fe9-aacb-3231d24a0c58"
+    },
+    {
+        "Edition": "HomeSingleLanguage",
+        "Key": "BT79Q-G7N6G-PGBYW-4YWX6-6F4BT",
+        "SkuId": "100",
+        "KeyPart": "X19-99661",
+        "ActId": "3ae2cc14-ab2d-41f4-972f-5e20142771dc"
+    },
+    {
+        "Edition": "HomeCountrySpecific",
+        "Key": "N2434-X9D7W-8PF6X-8DV9T-8TYMD",
+        "SkuId": "99",
+        "KeyPart": "X19-99652",
+        "ActId": "1d1bac85-7365-4fea-949a-96978ec91ae0"
+    },
+    {
+        "Edition": "ProfessionalWorkstation",
+        "Key": "DXG7C-N36C4-C4HTG-X4T3X-2YV77",
+        "SkuId": "161",
+        "KeyPart": "X21-43626",
+        "ActId": "eb6d346f-1c60-4643-b960-40ec31596c45"
+    },
+    {
+        "Edition": "ProfessionalWorkstationN",
+        "Key": "WYPNQ-8C467-V2W6J-TX4WX-WT2RQ",
+        "SkuId": "162",
+        "KeyPart": "X21-43644",
+        "ActId": "89e87510-ba92-45f6-8329-3afa905e3e83"
+    },
+    {
+        "Edition": "ProfessionalEducation",
+        "Key": "8PTT6-RNW4C-6V7J2-C2D3X-MHBPB",
+        "SkuId": "164",
+        "KeyPart": "X21-04955",
+        "ActId": "62f0c100-9c53-4e02-b886-a3528ddfe7f6"
+    },
+    {
+        "Edition": "ProfessionalEducationN",
+        "Key": "GJTYN-HDMQY-FRR76-HVGC7-QPF8P",
+        "SkuId": "165",
+        "KeyPart": "X21-04956",
+        "ActId": "13a38698-4a49-4b9e-8e83-98fe51110953"
+    }
+]

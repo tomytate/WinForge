@@ -1,0 +1,135 @@
+{
+    "Services": [
+        "WinDefend",
+        "WdBoot",
+        "WdFilter",
+        "WdNisDrv",
+        "WdNisSvc",
+        "Sense",
+        "SecurityHealthService",
+        "MsSecCore",
+        "wscsvc",
+        "SgrmAgent",
+        "SgrmBroker",
+        "MsSecFlt",
+        "MsSecWfp",
+        "whesvc",
+        "webthreatdefsvc",
+        "webthreatdefusersvc",
+        "PlutonHsp2",
+        "PlutonHeci",
+        "Hsp",
+        "WdNisDrv",
+        "WdNisSvc"
+    ],
+    "ScheduledTasks": [
+        "\\Microsoft\\Windows\\Windows Defender\\Windows Defender Cache Maintenance",
+        "\\Microsoft\\Windows\\Windows Defender\\Windows Defender Cleanup",
+        "\\Microsoft\\Windows\\Windows Defender\\Windows Defender Scheduled Scan",
+        "\\Microsoft\\Windows\\Windows Defender\\Windows Defender Verification",
+        "\\Microsoft\\Windows\\Windows Defender\\MpcIdleTask"
+    ],
+    "RegistryPolicies": [
+        {
+            "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender",
+            "Name": "DisableAntiSpyware",
+            "Value": 1,
+            "Type": "DWord"
+        },
+        {
+            "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender",
+            "Name": "DisableRealtimeMonitoring",
+            "Value": 1,
+            "Type": "DWord"
+        },
+        {
+            "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender",
+            "Name": "DisableAntiVirus",
+            "Value": 1,
+            "Type": "DWord"
+        },
+        {
+            "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender",
+            "Name": "DisableSpecialRunningModes",
+            "Value": 1,
+            "Type": "DWord"
+        },
+        {
+            "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender",
+            "Name": "DisableRoutinelyTakingAction",
+            "Value": 1,
+            "Type": "DWord"
+        },
+        {
+            "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender\\Real-Time Protection",
+            "Name": "DisableRealtimeMonitoring",
+            "Value": 1,
+            "Type": "DWord"
+        },
+        {
+            "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender\\Real-Time Protection",
+            "Name": "DisableBehaviorMonitoring",
+            "Value": 1,
+            "Type": "DWord"
+        },
+        {
+            "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender\\Real-Time Protection",
+            "Name": "DisableOnAccessProtection",
+            "Value": 1,
+            "Type": "DWord"
+        },
+        {
+            "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender\\Real-Time Protection",
+            "Name": "DisableScanOnRealtimeEnable",
+            "Value": 1,
+            "Type": "DWord"
+        },
+        {
+            "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender\\Spynet",
+            "Name": "SpynetReporting",
+            "Value": 0,
+            "Type": "DWord"
+        },
+        {
+            "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender\\Spynet",
+            "Name": "SubmitSamplesConsent",
+            "Value": 2,
+            "Type": "DWord"
+        },
+        {
+            "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows Defender\\Features",
+            "Name": "TamperProtection",
+            "Value": 0,
+            "Type": "DWord"
+        },
+        {
+            "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer",
+            "Name": "SmartScreenEnabled",
+            "Value": "Off",
+            "Type": "String"
+        },
+        {
+            "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer",
+            "Name": "SettingsPageVisibility",
+            "Value": "hide:windowsdefender;securityhealth",
+            "Type": "String"
+        },
+        {
+            "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\System",
+            "Name": "EnableSmartScreen",
+            "Value": 0,
+            "Type": "DWord"
+        }
+    ],
+    "RegistryDeletes": [
+        "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\webthreatdefsvc",
+        "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\webthreatdefusersvc",
+        "HKCR:\\CLSID\\{09A47860-11B0-4DA5-AFA5-26D86198A780}",
+        "HKCR:\\CLSID\\{27429189-13da-4122-b258-aab3545df2b6}",
+        "HKLM:\\SOFTWARE\\Microsoft\\Windows Security Health",
+        "HKCU:\\Software\\Microsoft\\Windows Security Health",
+        "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\SecurityHealthService",
+        "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\ControlPanel\\NameSpace\\{BB64F8A7-BEE7-4E1A-AB8D-7D8273F7FDB6}",
+        "HKCR:\\CLSID\\{BB64F8A7-BEE7-4E1A-AB8D-7D8273F7FDB6}"
+    ]
+}
